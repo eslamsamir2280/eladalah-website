@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="./default.css">
+<link rel="stylesheet" href="./default.date.css">
+<link rel="stylesheet" href="./rtl.css">
+
+<!-- link css style -->
+<link rel="stylesheet" href="./style.css">
+<!-- link css style -->
+<!-- link icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<!-- link icons -->
+<!-- aos -->
+<link rel="stylesheet" href="./aos.css">
+<!-- aos -->
+<title> البحث العام</title>
+</head>
+<body>
+    <!-- start header -->
+    <div class="bigNav">
+        <!-- start small nav -->
+        <section class="sm-nav">
+            <div class="container">
+                <div class="right">
+                    <a href="#"><img src="./images/googleplay.svg" alt=""></a>
+                    <a href="#"><img src="./images/appstore.svg" alt=""></a>
+                </div>
+                <div class="left">
+                    <a href="./login.html" class="flex"> <i class="fa-solid fa-arrow-right-to-bracket"></i> تسجيل الدخول</a>
+                    <!-- <a href="./login.html" class="flex"><i class="fa-solid fa-user"></i>حسابي</a> -->
+                    <a href="#" class="flex"> <i class="fa-solid fa-headset"></i> الدعم والمساعدة</a>
+                </div>
+            </div>
+        </section>
+        <!-- end small nav -->
+        <!-- start main nav -->
+        <section class="navBar">
+            <div class="container">
+                <div class="logo">
+                    <img src="./images/logo.webp" alt="">
+                </div>
+                <nav>
+                    <ul class="navLinks">
+                        <li><a href="./index.html">
+                                <img src="./images/home (1).png" alt="">
+                                الرئيسية</a></li>
+                        <li><a href="./groupmanzoma.html">
+                                <img src="./images/compliant.png" alt="">
+                                منظومات الشرح </a></li>
+                        <li><a href="#">
+                                <img src="./images/auction.png" alt="">
+                                منظومة الأحكام </a>
+                        </li>
+                        <li><a href="#">
+                                <img src="./images/protected.png" alt="">
+                                منظومة التشريعات </a>
+                        </li>
+                        <li><a href="#">
+                                <img src="./images/law (2).png" alt="">
+                                منظومة الهيئات</a></li>
+                        <li><a href="https://sales.eladalah.com/Home/index.php">
+                                <img src="./images/book.png" alt="">
+                                الإصدارات الورقية</a></li>
+                    </ul>
+                    <i class="fa-solid fa-bars" id="open"></i>
+                    <ul class="side-nav" id="sidenav">
+                        <li>
+                            <i class="fa-solid fa-house"></i>
+                            <a href="./index.html">الرئيسية</a>
+                        </li>
+                        <li><i class="fa-solid fa-scale-balanced"></i><a href="./groupmanzoma.html">منظومة الشرح </a></li>
+                        <li><i class="fa-solid fa-scale-balanced"></i><a href="#">منظومة الأحكام</a></li>
+                        <li><i class="fa-solid fa-scale-balanced"></i><a href="#">منظومة التشريعات</a></li>
+                        <li><i class="fa-solid fa-scale-balanced"></i><a href="#">منظومة الهيئات</a></li>
+                        <li><i class="fa-solid fa-book"></i><a href="https://sales.eladalah.com/Home/index.php"> الإصدارات
+                                الورقية</a></li>
+                        <li><i class="fa-brands fa-youtube"></i></i><a href="#">مكتبة الفيديوهات</a></li>
+                        <li class="login"><i class="fa-solid fa-arrow-right-to-bracket"></i><a href="./login.html">تسجيل
+                                الدخول</a></li>
+                        <li><i class="fa-solid fa-headset"></i><a href="#">الدعم والمساعدة</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </section>
+    </div>
+    <!-- end main nav -->
+    <!-- end header -->
+    <div class="global-search">
+        <div class="container">
+                            <div class="flex">
+                                <div class="main-title">
+                                    <h4>البحث العام</h4>
+                                </div>
+                            </div>
+                            <div class="search-i">
+                                <select class="search-select" name="" id="">
+                                    <option value="0">بحث مطابق</option>
+                                    <option value="1">بحث مشابة</option>
+                                </select>
+                                <input type="search">
+                            </div>
+                            <div class="btn">
+                                                            <button>ابحث</button>
+
+                            </div>
+
+                            <div class="result show">
+                                <section class="tash-page result-content">
+                                    <div class="container">
+                                        <div class="search-flex">
+                                        </div>
+                                        <div class="agmaly">
+                                            <p> <i class="fa-solid fa-chart-line"></i> إجمالي عدد النتائج هو (120 ) عنصر</p>
+                                            <div class="sorting">
+                                                <div class="sort">
+                                                    <i class="fa-solid fa-arrow-down-1-9"></i>
+                                                    <select name="" id="">
+                                                        <option value="0">
+                                                            ترتيب برقم التشريع
+                                                        </option>
+                                                        <option value="1">
+                                                            ترتيب بتاريخ التشريع
+                                                        </option>
+                                                        <option value="2">
+                                                            ترتيب بسنة التشريع
+                                                        </option>
+                                                    </select>
+                                                </div>
+                                                <div class="pages">
+                                                    <i class="fa-solid fa-display"></i>
+                                                    <select name="" id="">
+                                                        <option value="0">
+                                                            عدد <span>10</span> نتائج
+                                                        </option>
+                                                        <option value="1">
+                                                            عدد <span>20</span> نتائج
+                                                        </option>
+                                                        <option value="2">
+                                                            عدد <span>40</span> نتائج
+                                                        </option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="selected">
+                                                <ul>
+                                                    <li>
+                                                        <p>قانون <span>(10)</span></p>
+                                                        <a href="#"><i class="fa-solid fa-xmark"></i></a>
+                                                    </li>
+                                                    <li>
+                                                        <p>قرار رئيس الجمهورية <span>(10)</span></p>
+                                                        <a href="#"><i class="fa-solid fa-xmark"></i></a>
+                                                    </li>
+                                                    <li>
+                                                        <p>قرار رئيس الوزراء <span>(10)</span></p>
+                                                        <a href="#"><i class="fa-solid fa-xmark"></i></a>
+                                                    </li>
+                                                    <li>
+                                                        <p>قرار وزير الشباب والرياضة <span>(10)</span></p>
+                                                        <a href="#"><i class="fa-solid fa-xmark"></i></a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="row row-search-result">
+                                            <div class="col-1">
+                                                <div class="box">
+                                                    <div class="ntag">
+                                                        <div class="box-title">
+                                                            <h4>نتائج البحث</h4>
+                                                        </div>
+                                                        <div class="search">
+                                                            <input type="search" placeholder="بحث في عوامل التصفية">
+                                                        </div>
+                                                        <div class="box-content">
+                                                        <a href="#" class="boxs">
+                                                            <div>
+                                                                <i class="fa-solid fa-scale-balanced"></i>
+                                                                <span>أحكام النقض المدنية</span>
+                                                            </div>
+                                                            <span class="count">
+                                                                200
+                                                            </span>
+                                                        </a>
+                                                        <a href="#" class="boxs active">
+                                                           <div>
+                                                             <i class="fa-solid fa-scale-balanced"></i>
+                                                             <span>أحكام النقض الجنائية</span>
+                                                           </div>
+                                                            <span class="count">
+                                                                200
+                                                            </span>
+                                                        </a>
+                                                        <a href="#" class="boxs">
+                                                           <div>
+                                                             <i class="fa-solid fa-scale-balanced"></i>
+                                                             <span>فتاوي مجلس الدولة</span>
+                                                           </div>
+                                                            <span class="count">
+                                                                200
+                                                            </span>
+                                                        </a>
+                                                        <a href="#" class="boxs">
+                                                           <div>
+                                                             <i class="fa-solid fa-scale-balanced"></i>
+                                                             <span>فتاوي مجلس الدولة</span>
+                                                           </div>
+                                                            <span class="count">
+                                                                200
+                                                            </span>
+                                                        </a>
+                                                        <a href="#" class="boxs">
+                                                           <div>
+                                                             <i class="fa-solid fa-scale-balanced"></i>
+                                                             <span>فتاوي مجلس الدولة</span>
+                                                           </div>
+                                                            <span class="count">
+                                                                200
+                                                            </span>
+                                                        </a>
+                                                        <a href="#" class="boxs">
+                                                           <div>
+                                                             <i class="fa-solid fa-scale-balanced"></i>
+                                                             <span>فتاوي مجلس الدولة</span>
+                                                           </div>
+                                                            <span class="count">
+                                                                200
+                                                            </span>
+                                                        </a>
+                                                        <a href="#" class="boxs">
+                                                           <div>
+                                                             <i class="fa-solid fa-scale-balanced"></i>
+                                                             <span>فتاوي مجلس الدولة</span>
+                                                           </div>
+                                                            <span class="count">
+                                                                200
+                                                            </span>
+                                                        </a>
+                                                        <a href="#" class="boxs">
+                                                           <div>
+                                                             <i class="fa-solid fa-scale-balanced"></i>
+                                                             <span>فتاوي مجلس الدولة</span>
+                                                           </div>
+                                                            <span class="count">
+                                                                200
+                                                            </span>
+                                                        </a>
+                                                        <a href="#" class="boxs">
+                                                           <div>
+                                                             <i class="fa-solid fa-scale-balanced"></i>
+                                                             <span>فتاوي مجلس الدولة</span>
+                                                           </div>
+                                                            <span class="count">
+                                                                200
+                                                            </span>
+                                                        </a>
+                                                        <a href="#" class="boxs">
+                                                           <div>
+                                                             <i class="fa-solid fa-scale-balanced"></i>
+                                                             <span>فتاوي مجلس الدولة</span>
+                                                           </div>
+                                                            <span class="count">
+                                                                200
+                                                            </span>
+                                                        </a>
+                                                        <a href="#" class="boxs">
+                                                           <div>
+                                                             <i class="fa-solid fa-scale-balanced"></i>
+                                                             <span>فتاوي مجلس الدولة</span>
+                                                           </div>
+                                                            <span class="count">
+                                                                200
+                                                            </span>
+                                                        </a>
+                                                        <a href="#" class="boxs">
+                                                           <div>
+                                                             <i class="fa-solid fa-scale-balanced"></i>
+                                                             <span>فتاوي مجلس الدولة</span>
+                                                           </div>
+                                                            <span class="count">
+                                                                200
+                                                            </span>
+                                                        </a>
+                                                        <a href="#" class="boxs">
+                                                           <div>
+                                                             <i class="fa-solid fa-scale-balanced"></i>
+                                                             <span>فتاوي مجلس الدولة</span>
+                                                           </div>
+                                                            <span class="count">
+                                                                200
+                                                            </span>
+                                                        </a>
+                                                        <a href="#" class="boxs">
+                                                           <div>
+                                                             <i class="fa-solid fa-scale-balanced"></i>
+                                                             <span>فتاوي مجلس الدولة</span>
+                                                           </div>
+                                                            <span class="count">
+                                                                200
+                                                            </span>
+                                                        </a>
+                                                        <a href="#" class="boxs">
+                                                           <div>
+                                                             <i class="fa-solid fa-scale-balanced"></i>
+                                                             <span>فتاوي مجلس الدولة</span>
+                                                           </div>
+                                                            <span class="count">
+                                                                200
+                                                            </span>
+                                                        </a>
+                                                        <a href="#" class="boxs">
+                                                           <div>
+                                                             <i class="fa-solid fa-scale-balanced"></i>
+                                                             <span>فتاوي مجلس الدولة</span>
+                                                           </div>
+                                                            <span class="count">
+                                                                200
+                                                            </span>
+                                                        </a>
+                                                        <a href="#" class="boxs">
+                                                           <div>
+                                                             <i class="fa-solid fa-scale-balanced"></i>
+                                                             <span>فتاوي مجلس الدولة</span>
+                                                           </div>
+                                                            <span class="count">
+                                                                200
+                                                            </span>
+                                                        </a>
+                                                        <a href="#" class="boxs">
+                                                            <div>
+                                                                <i class="fa-solid fa-scale-balanced"></i>
+                                                                <span>موسوعة صيغ العقود والدعاوي</span>
+                                                            </div>
+                                                            <span class="count">
+                                                                200
+                                                            </span>
+                                                        </a>
+                                                        </div>
+                                                </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-2">
+                                                <div class="tash-boxs">
+                                                    <div class="box-tash">
+                                                        <div class="box-flex">
+                                                            <div class="num-box">
+                                                                <p>1</p>
+                                                            </div>
+                                                            <div class="box">
+                                                                <a href="#">
+                                                                    <h3>قانون رقم 131 لسنة 1948: <span>بشإن إصدار القانون المدني</span></h3>
+                                                                </a>
+                                                                <p class="tash-desc">بمنح التزام تصميم وإنشاء وإدارة وتشغيل وصيانة وإعادة تسليم محطة
+                                                                    متعددة الأغراض بميناء شرق بورسعيد
+                                                                    لشركة (سكاى للموانئ -
+                                                                    ش.م.م. sky ports co " تحت التأسيس" بنظام المناطق الاقتصادية ذات الطبيعة الخاصة )
+                                                                </p>
+                            
+                                                                <div class="tabs">
+                                                                    <a href="#"><i class="fa-solid fa-list"></i>
+                                                                        <p>مواد التشريع</p>
+                                                                    </a>
+                                                                    <a href="#"><i class="fa-regular fa-image"></i>
+                                                                        <p>صورة التشريع</p>
+                                                                    </a>
+                                                                    <a href="#"><i class="fa-solid fa-pen"></i>
+                                                                        <p>تعديلات التشريع</p>
+                                                                    </a>
+                                                                    <a href="#"><i class="fa-solid fa-file-contract"></i>
+                                                                        <p>اللائحة التنفيذية</p>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="box-tash">
+                                                        <div class="box-flex">
+                                                            <div class="num-box">
+                                                                <p>1</p>
+                                                            </div>
+                                                            <div class="box">
+                                                                <a href="#">
+                                                                    <h3>قانون رقم 131 لسنة 1948: <span>بشإن إصدار القانون المدني</span></h3>
+                                                                </a>
+                                                                <p class="tash-desc">بمنح التزام تصميم وإنشاء وإدارة وتشغيل وصيانة وإعادة تسليم محطة
+                                                                    متعددة الأغراض بميناء شرق بورسعيد
+                                                                    لشركة (سكاى للموانئ -
+                                                                    ش.م.م. sky ports co " تحت التأسيس" بنظام المناطق الاقتصادية ذات الطبيعة الخاصة )
+                                                                </p>
+                            
+                                                                <div class="tabs">
+                                                                    <a href="#"><i class="fa-solid fa-list"></i>
+                                                                        <p>مواد التشريع</p>
+                                                                    </a>
+                                                                    <a href="#"><i class="fa-regular fa-image"></i>
+                                                                        <p>صورة التشريع</p>
+                                                                    </a>
+                                                                    <a href="#"><i class="fa-solid fa-pen"></i>
+                                                                        <p>تعديلات التشريع</p>
+                                                                    </a>
+                                                                    <a href="#"><i class="fa-solid fa-file-contract"></i>
+                                                                        <p>اللائحة التنفيذية</p>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="box-tash">
+                                                        <div class="box-flex">
+                                                            <div class="num-box">
+                                                                <p>1</p>
+                                                            </div>
+                                                            <div class="box">
+                                                                <a href="#">
+                                                                    <h3>قانون رقم 131 لسنة 1948: <span>بشإن إصدار القانون المدني</span></h3>
+                                                                </a>
+                                                                <p class="tash-desc">بمنح التزام تصميم وإنشاء وإدارة وتشغيل وصيانة وإعادة تسليم محطة
+                                                                    متعددة الأغراض بميناء شرق بورسعيد
+                                                                    لشركة (سكاى للموانئ -
+                                                                    ش.م.م. sky ports co " تحت التأسيس" بنظام المناطق الاقتصادية ذات الطبيعة الخاصة )
+                                                                </p>
+                            
+                                                                <div class="tabs">
+                                                                    <a href="#"><i class="fa-solid fa-list"></i>
+                                                                        <p>مواد التشريع</p>
+                                                                    </a>
+                                                                    <a href="#"><i class="fa-regular fa-image"></i>
+                                                                        <p>صورة التشريع</p>
+                                                                    </a>
+                                                                    <a href="#"><i class="fa-solid fa-pen"></i>
+                                                                        <p>تعديلات التشريع</p>
+                                                                    </a>
+                                                                    <a href="#"><i class="fa-solid fa-file-contract"></i>
+                                                                        <p>اللائحة التنفيذية</p>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="box-tash">
+                                                        <div class="box-flex">
+                                                            <div class="num-box">
+                                                                <p>1</p>
+                                                            </div>
+                                                            <div class="box">
+                                                                <a href="#">
+                                                                    <h3>قانون رقم 131 لسنة 1948: <span>بشإن إصدار القانون المدني</span></h3>
+                                                                </a>
+                                                                <p class="tash-desc">بمنح التزام تصميم وإنشاء وإدارة وتشغيل وصيانة وإعادة تسليم محطة
+                                                                    متعددة الأغراض بميناء شرق بورسعيد
+                                                                    لشركة (سكاى للموانئ -
+                                                                    ش.م.م. sky ports co " تحت التأسيس" بنظام المناطق الاقتصادية ذات الطبيعة الخاصة )
+                                                                </p>
+                            
+                                                                <div class="tabs">
+                                                                    <a href="#"><i class="fa-solid fa-list"></i>
+                                                                        <p>مواد التشريع</p>
+                                                                    </a>
+                                                                    <a href="#"><i class="fa-regular fa-image"></i>
+                                                                        <p>صورة التشريع</p>
+                                                                    </a>
+                                                                    <a href="#"><i class="fa-solid fa-pen"></i>
+                                                                        <p>تعديلات التشريع</p>
+                                                                    </a>
+                                                                    <a href="#"><i class="fa-solid fa-file-contract"></i>
+                                                                        <p>اللائحة التنفيذية</p>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="box-tash">
+                                                        <div class="box-flex">
+                                                            <div class="num-box">
+                                                                <p>1</p>
+                                                            </div>
+                                                            <div class="box">
+                                                                <a href="#">
+                                                                    <h3>قانون رقم 131 لسنة 1948: <span>بشإن إصدار القانون المدني</span></h3>
+                                                                </a>
+                                                                <p class="tash-desc">بمنح التزام تصميم وإنشاء وإدارة وتشغيل وصيانة وإعادة تسليم محطة
+                                                                    متعددة الأغراض بميناء شرق بورسعيد
+                                                                    لشركة (سكاى للموانئ -
+                                                                    ش.م.م. sky ports co " تحت التأسيس" بنظام المناطق الاقتصادية ذات الطبيعة الخاصة )
+                                                                </p>
+                            
+                                                                <div class="tabs">
+                                                                    <a href="#"><i class="fa-solid fa-list"></i>
+                                                                        <p>مواد التشريع</p>
+                                                                    </a>
+                                                                    <a href="#"><i class="fa-regular fa-image"></i>
+                                                                        <p>صورة التشريع</p>
+                                                                    </a>
+                                                                    <a href="#"><i class="fa-solid fa-pen"></i>
+                                                                        <p>تعديلات التشريع</p>
+                                                                    </a>
+                                                                    <a href="#"><i class="fa-solid fa-file-contract"></i>
+                                                                        <p>اللائحة التنفيذية</p>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="pagination">
+                                                    <div class="page previous">
+                                                        <a href="#"><i class="fa-solid fa-angles-right"></i></a>
+                                                    </div>
+                                                    <div class="page active"><a href="#"><span>1</span></a></div>
+                                                    <div class="page"><a href="#"><span>2</span></a></div>
+                                                    <div class="page"><a href="#"><span>3</span></a></div>
+                                                    <div class="page"><a href="#"><span>4</span></a></div>
+                                                    <div class="page"><a href="#"><span>5</span></a></div>
+                                                    <div class="page"><a href="#"><span>6</span></a></div>
+                                                    <div class="page"><a href="#"><span>7</span></a></div>
+                                                    <div class="page next">
+                                                        <a href="#"><i class="fa-solid fa-angles-left"></i></a>
+                            
+                                                    </div>
+                                                </div>
+                                                <p class="agmaly-page">إجمالي عدد الصفحات <span>( 100 )</span></p>
+                                            </div>
+                                            <div class="col-3">
+                                                <div class="heading">
+                                                    <p>عوامل التصفية</p>
+                                                </div>
+                                                <div class="accordion checks">
+                                                    <div class="accordion-item">
+                                                        <div class="accordion-header">
+                                                            <h4>نوع التشريع</h4>
+                                                            <i class="fa-solid fa-angle-down"></i>
+                                                        </div>
+                                                        <div class="accordion-content">
+                                                            <div class="search">
+                                                                <input type="search" placeholder="بحث في عوامل التصفية">
+                                                            </div>
+                                                            <div class="checkboxs">
+                                                                <div class="item">
+                                                                    <input type="checkbox" name="" id="">
+                                                                    <label for="checkbox">قرار رئيس الجمهورية <span class="count">( 435
+                                                                            )</span></label>
+                                                                </div>
+                                                                <div class="item">
+                                                                    <input type="checkbox" name="" id="">
+                                                                    <label for="checkbox"> قرار المجلس الأعلى للشباب والرياضة</label>
+                                                                </div>
+                                                                <div class="item">
+                                                                    <input type="checkbox" name="" id="">
+                                                                    <label for="checkbox"> قرار المجلس الأعلى للشباب والرياضة</label>
+                                                                </div>
+                                                                <div class="item">
+                                                                    <input type="checkbox" name="" id="">
+                                                                    <label for="checkbox"> قرار المجلس الأعلى للشباب والرياضة</label>
+                                                                </div>
+                                                                <div class="item">
+                                                                    <input type="checkbox" name="" id="">
+                                                                    <label for="checkbox"> قرار المجلس الأعلى للشباب والرياضة</label>
+                                                                </div>
+                                                                <div class="item">
+                                                                    <input type="checkbox" name="" id="">
+                                                                    <label for="checkbox"> قرار المجلس الأعلى للشباب والرياضة</label>
+                                                                </div>
+                                                                <div class="item">
+                                                                    <input type="checkbox" name="" id="">
+                                                                    <label for="checkbox"> قرار المجلس الأعلى للشباب والرياضة</label>
+                                                                </div>
+                                                                <div class="item">
+                                                                    <input type="checkbox" name="" id="">
+                                                                    <label for="checkbox"> قرار المجلس الأعلى للشباب والرياضة</label>
+                                                                </div>
+                                                                <div class="item">
+                                                                    <input type="checkbox" name="" id="">
+                                                                    <label for="checkbox"> قرار المجلس الأعلى للشباب والرياضة</label>
+                                                                </div>
+                                                                <div class="item">
+                                                                    <input type="checkbox" name="" id="">
+                                                                    <label for="checkbox"> قرار المجلس الأعلى للشباب والرياضة</label>
+                                                                </div>
+                                                                <div class="item">
+                                                                    <input type="checkbox" name="" id="">
+                                                                    <label for="checkbox">قرار المجلس الأعلى للشباب والرياضة</label>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="accordion-item">
+                                                        <div class="accordion-header">
+                                                            <h4>نوع التشريع</h4>
+                                                            <i class="fa-solid fa-angle-down"></i>
+                                                        </div>
+                                                        <div class="accordion-content">
+                                                            <div class="search">
+                                                                <input type="search" placeholder="بحث في عوامل التصفية">
+                                                            </div>
+                                                            <div class="checkboxs">
+                                                                <div class="item">
+                                                                    <input type="checkbox" name="" id="">
+                                                                    <label for="checkbox">2022</label>
+                                                                </div>
+                                                                <div class="item">
+                                                                    <input type="checkbox" name="" id="">
+                                                                    <label for="checkbox">قرار المجلس الأعلى للشباب والرياضة</label>
+                                                                </div>
+                                                                <div class="item">
+                                                                    <input type="checkbox" name="" id="">
+                                                                    <label for="checkbox">قرار المجلس الأعلى للشباب والرياضة</label>
+                                                                </div>
+                                                                <div class="item">
+                                                                    <input type="checkbox" name="" id="">
+                                                                    <label for="checkbox">قرار المجلس الأعلى للشباب والرياضة</label>
+                                                                </div>
+                                                                <div class="item">
+                                                                    <input type="checkbox" name="" id="">
+                                                                    <label for="checkbox">قرار المجلس الأعلى للشباب والرياضة</label>
+                                                                </div>
+                                                                <div class="item">
+                                                                    <input type="checkbox" name="" id="">
+                                                                    <label for="checkbox">قرار المجلس الأعلى للشباب والرياضة</label>
+                                                                </div>
+                                                                <div class="item">
+                                                                    <input type="checkbox" name="" id="">
+                                                                    <label for="checkbox">قرار المجلس الأعلى للشباب والرياضة</label>
+                                                                </div>
+                                                                <div class="item">
+                                                                    <input type="checkbox" name="" id="">
+                                                                    <label for="checkbox">قرار المجلس الأعلى للشباب والرياضة</label>
+                                                                </div>
+                                                                <div class="item">
+                                                                    <input type="checkbox" name="" id="">
+                                                                    <label for="checkbox">قرار المجلس الأعلى للشباب والرياضة</label>
+                                                                </div>
+                                                                <div class="item">
+                                                                    <input type="checkbox" name="" id="">
+                                                                    <label for="checkbox">قرار المجلس الأعلى للشباب والرياضة</label>
+                                                                </div>
+                                                                <div class="item">
+                                                                    <input type="checkbox" name="" id="">
+                                                                    <label for="checkbox">قرار المجلس الأعلى للشباب والرياضة</label>
+                                                                </div>
+                                                                <div class="item">
+                                                                    <input type="checkbox" name="" id="">
+                                                                    <label for="checkbox">قرار المجلس الأعلى للشباب والرياضة</label>
+                                                                </div>
+                                                                <div class="item">
+                                                                    <input type="checkbox" name="" id="">
+                                                                    <label for="checkbox">قرار المجلس الأعلى للشباب والرياضة</label>
+                                                                </div>
+                                                                <div class="item">
+                                                                    <input type="checkbox" name="" id="">
+                                                                    <label for="checkbox">قرار المجلس الأعلى للشباب والرياضة</label>
+                                                                </div>
+                                                                <div class="item">
+                                                                    <input type="checkbox" name="" id="">
+                                                                    <label for="checkbox">قرار المجلس الأعلى للشباب والرياضة</label>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                            
+                            
+                            
+                                                </div>
+                                            </div>
+                                </section>
+                            </div>
+        </div>
+    </div>
+    <script src="./globalsearch.js"></script>
+</body>
+</html>

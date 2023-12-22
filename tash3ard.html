@@ -1,0 +1,972 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- link css style -->
+<link rel="stylesheet" href="./style.css">
+<!-- link css style -->
+<!-- link icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<!-- link icons -->
+<!-- aos -->
+<link rel="stylesheet" href="./aos.css">
+<!-- aos -->
+<title>التشريعات</title>
+</head>
+<body>
+    <!-- start header -->
+    <div class="bigNav">
+        <!-- start small nav -->
+        <section class="sm-nav">
+            <div class="container">
+                <div class="right">
+                    <a href="#"><img src="./images/googleplay.svg" alt=""></a>
+                    <a href="#"><img src="./images/appstore.svg" alt=""></a>
+                </div>
+                <div class="left">
+                    <a href="./login.html" class="flex"> <i class="fa-solid fa-arrow-right-to-bracket"></i> تسجيل الدخول</a>
+                    <!-- <a href="./login.html" class="flex"><i class="fa-solid fa-user"></i>حسابي</a> -->
+                    <a href="#" class="flex"> <i class="fa-solid fa-headset"></i> الدعم والمساعدة</a>
+                </div>
+            </div>
+        </section>
+        <!-- end small nav -->
+        <!-- start main nav -->
+        <section class="navBar">
+            <div class="container">
+                <div class="logo">
+                    <img src="./images/logo.webp" alt="">
+                </div>
+                <nav>
+                    <ul class="navLinks">
+                        <li><a href="./index.html">
+                                <img src="./images/home (1).png" alt="">
+                                الرئيسية</a></li>
+                        <li><a href="./groupmanzoma.html">
+                                <img src="./images/compliant.png" alt="">
+                                منظومات الشرح </a></li>
+                        <li><a href="#">
+                                <img src="./images/auction.png" alt="">
+                                منظومة الأحكام </a>
+                        </li>
+                        <li><a href="#">
+                                <img src="./images/protected.png" alt="">
+                                منظومة التشريعات </a>
+                        </li>
+                        <li><a href="#">
+                                <img src="./images/law (2).png" alt="">
+                                منظومة الهيئات</a></li>
+                        <li><a href="https://sales.eladalah.com/Home/index.php">
+                                <img src="./images/book.png" alt="">
+                                الإصدارات الورقية</a></li>
+                    </ul>
+                    <i class="fa-solid fa-bars" id="open"></i>
+                    <ul class="side-nav" id="sidenav">
+                        <li>
+                            <i class="fa-solid fa-house"></i>
+                            <a href="./index.html">الرئيسية</a>
+                        </li>
+                        <li><i class="fa-solid fa-scale-balanced"></i><a href="./groupmanzoma.html">منظومة الشرح </a></li>
+                        <li><i class="fa-solid fa-scale-balanced"></i><a href="#">منظومة الأحكام</a></li>
+                        <li><i class="fa-solid fa-scale-balanced"></i><a href="#">منظومة التشريعات</a></li>
+                        <li><i class="fa-solid fa-scale-balanced"></i><a href="#">منظومة الهيئات</a></li>
+                        <li><i class="fa-solid fa-book"></i><a href="https://sales.eladalah.com/Home/index.php"> الإصدارات
+                                الورقية</a></li>
+                        <li><i class="fa-brands fa-youtube"></i></i><a href="#">مكتبة الفيديوهات</a></li>
+                        <li class="login"><i class="fa-solid fa-arrow-right-to-bracket"></i><a href="./login.html">تسجيل
+                                الدخول</a></li>
+                        <li><i class="fa-solid fa-headset"></i><a href="#">الدعم والمساعدة</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </section>
+    </div>
+    <!-- end main nav -->
+    <!-- end header -->
+    <div class="aardtash">
+        <div class="container">
+            <div class="title">
+                <div class="main-title">
+                    <h4>منظومة المرافعة والدفاع</h4>
+                </div>
+            </div>
+             <div class="attachment">
+                 <a href="" class="img"><i class="fa-regular fa-image"></i><span>صورة التشريع</span></a>
+                 <div class="line"></div>
+                 <a href="#" class="edit"><i class="fa-solid fa-pen"></i><span>تعديلات التشريع</span></a>
+                <div class="line"></div>
+                <a href="#" class="lai7a"><i class="fa-solid fa-file-contract"></i><span>اللائحة التنفيذية</span></a>
+                <div class="line"></div>
+                <a href="#" class="fhrs active"><i class="fa-regular fa-eye"></i><span>عرض الفهرس</span></a>
+           </div>
+            <div class="aard-row">
+                <div class="aard-col-0">
+                    <div class="box-title">
+                        <h4>فهرس التشريع</h4>
+                        <div class="btn-head">
+                            <div class="big">
+                                <a href="" id="expandAll">
+                                    <p> <i class="fa-solid fa-circle-plus"></i> توسيع</p>
+                                </a>
+                            </div>
+                            <div class="small">
+                                <a href="#" id="collapseAll">
+                                    <p> <i class="fa-solid fa-circle-minus"></i> طي</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <ul class="treeView">
+                        <div class="loading">
+                            <span class="loader"></span>
+                            <p>جاري التحميل .....</p>
+                        </div>
+                        <li class="parent">
+                            <details>
+                                <summary>القانون المدني</summary>
+                                <ul>
+                                    <li class="single"> <i class="fa-solid fa-file"></i> مادة 1</li>
+                                    <li class="single"> <i class="fa-solid fa-file"></i> مادة 2</li>
+                                    <li class="single"> <i class="fa-solid fa-file"></i> مادة 2</li>
+                                    <li class="single"> <i class="fa-solid fa-file"></i> مادة 2</li>
+                                    <li class="single"> <i class="fa-solid fa-file"></i> مادة 2</li>
+                                    <li class="single"> <i class="fa-solid fa-file"></i> مادة 3</li>
+                                    <li class="single"> <i class="fa-solid fa-file"></i> مادة 4</li>
+                                    <li class="single"> <i class="fa-solid fa-file"></i> مادة 5</li>
+                                    <li class="single"> <i class="fa-solid fa-file"></i> مادة 6</li>
+                                </ul>
+                            </details>
+                        </li>
+                        <li class="parent">
+                            <details>
+                                <summary>قانون الإجراءات الجنائية وقانون العقوبات</summary>
+                                <ul>
+                                    <li>
+                                        <details>
+                                            <summary>قانون الإجراءات الجنائية</summary>
+                                            <ul>
+                                                <li class="single">مادة 1</li>
+                                                <li class="single">مادة 2</li>
+                                                <li class="single">مادة 2</li>
+                                                <li class="single">مادة 2</li>
+                                                <li class="single">مادة 2</li>
+                                                <li class="single">مادة 3</li>
+                                                <li class="single">مادة 4</li>
+                                                <li class="single">مادة 5</li>
+                                                <li class="single">مادة 6</li>
+                                                <li class="single">مادة 6</li>
+                                                <li class="single">مادة 6</li>
+                                                <li class="single">مادة 6</li>
+                                                <li class="single">مادة 6</li>
+                                                <li class="single">مادة 6</li>
+                                                <li class="single">مادة 6</li>
+                                                <li class="single">مادة 6</li>
+                                                <li class="single">مادة 6</li>
+                                                <li class="single">مادة 6</li>
+                                                <li class="single">مادة 6</li>
+                                                <li class="single">مادة 6</li>
+                                                <li class="single">مادة 6</li>
+                                                <li class="single">مادة 6</li>
+                                                <li class="single">مادة 6</li>
+                                                <li class="single">مادة 6</li>
+                                                <li class="single">مادة 6</li>
+                                                <li class="single">مادة 6</li>
+                                                <li class="single">مادة 6</li>
+                                                <li class="single">مادة 6</li>
+                                                <li class="single">مادة 6</li>
+                                                <li class="single">مادة 6</li>
+                                                <li class="single">مادة 6</li>
+                                                <li class="single">مادة 6</li>
+                                                <li class="single">مادة 6</li>
+                                                <li class="single">مادة 6</li>
+                                                <li class="single">مادة 6</li>
+                                                <li class="single">مادة 6</li>
+                                                <li class="single">مادة 6</li>
+                                                <li class="single">مادة 6</li>
+                                                <li class="single">مادة 6</li>
+                                            </ul>
+                                        </details>
+                                    </li>
+                                    <li>
+                                        <details>
+                                            <summary>قانون العقوبات</summary>
+                                            <ul>
+                                                <li class="single">مادة 1</li>
+                                                <li class="single">مادة 2</li>
+                                                <li class="single">مادة 3</li>
+                                                <li class="single">مادة 4</li>
+                                                <li class="single">مادة 5</li>
+                                                <li class="single">مادة 6</li>
+                                                <li class="single">مادة 7</li>
+                                                <li class="single">مادة 78</li>
+                                                <li class="single">مادة 78</li>
+                                                <li class="single">مادة 78</li>
+                                                <li class="single">مادة 78</li>
+                                                <li class="single">مادة 9</li>
+                                                <li class="single">مادة 90</li>
+                                            </ul>
+                                        </details>
+                                    </li>
+                                </ul>
+                            </details>
+                        </li>
+                        <li class="parent">
+                            <details>
+                                <summary>الأحوال الشخصية</summary>
+                                <ul>
+                                    <li class="single">مادة 1</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 3</li>
+                                    <li class="single">مادة 4</li>
+                                    <li class="single">مادة 5</li>
+                                    <li class="single">مادة 6</li>
+                                </ul>
+                            </details>
+                        </li>
+                        <li class="parent">
+                            <details>
+                                <summary>قانون الإثبات</summary>
+                                <ul>
+                                    <li class="single">مادة 1</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 3</li>
+                                    <li class="single">مادة 4</li>
+                                    <li class="single">مادة 5</li>
+                                    <li class="single">مادة 6</li>
+                                </ul>
+                            </details>
+                        </li>
+                        <li class="parent">
+                            <details>
+                                <summary>قانون المرافعات</summary>
+                                <ul>
+                                    <li class="single">مادة 1</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 3</li>
+                                    <li class="single">مادة 4</li>
+                                    <li class="single">مادة 5</li>
+                                    <li class="single">مادة 6</li>
+                                </ul>
+                            </details>
+                        </li>
+                        <li class="parent">
+                            <details>
+                                <summary>قانون مجلس الدولة</summary>
+                                <ul>
+                                    <li class="single">مادة 1</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 2</li>
+                                    <li class="single">مادة 3</li>
+                                    <li class="single">مادة 4</li>
+                                    <li class="single">مادة 5</li>
+                                    <li class="single">مادة 6</li>
+                                </ul>
+                            </details>
+                        </li>
+                    </ul>
+                </div>
+                <div class="aard-col-1">
+                    
+                    <div class="box">
+                        <div class="box-title">
+                            <p>مواد القانون</p>
+                        </div>
+                        <div class="search">
+                            <input type="search" id="" placeholder="تصفية بالمادة" >
+                        </div>
+                        <div class="flex"><a href="#" class="refresh"><i class="fa-solid fa-arrows-rotate"></i> <span>
+                                    إعادة تحميل المواد</span></a>
+                        </div>
+                        <div class="scroll">
+                            <div class="box-content">
+                                <div class="mada active">
+                                        <a href="#">
+                                        <p>مادة 1</p>
+                                    </a>
+                                </div>
+                                <div class="mada">
+                                <a href="#">
+                                        <p>مادة  2</p>
+                                    </a>
+                                </div>
+                                <div class="mada">
+                                        <a href="#">
+                                        <p>مادة  2</p>
+                                    </a>
+                                </div>
+                                <div class="mada">
+                                        <a href="#">
+                                        <p>مادة  2</p>
+                                    </a>
+                                </div>
+                                <div class="mada">
+                                <a href="#">
+                                        <p>مادة  2</p>
+                                    </a>
+                                </div>
+                                <div class="mada">
+                                <a href="#">
+                                        <p>مادة  2</p>
+                                    </a>
+                                </div>
+                                <div class="mada">
+                                <a href="#">
+                                        <p>مادة  2</p>
+                                    </a>
+                                </div>
+                                <div class="mada">
+                                <a href="#">
+                                        <p>مادة  2</p>
+                                    </a>
+                                </div>
+                                <div class="mada">
+                                <a href="#">
+                                        <p>مادة  2</p>
+                                    </a>
+                                </div>
+                                <div class="mada">
+                                <a href="#">
+                                        <p>مادة  2</p>
+                                    </a>
+                                </div>
+                                <div class="mada">
+                                <a href="#">
+                                        <p>مادة  2</p>
+                                    </a>
+                                </div>
+                                <div class="mada">
+                                <a href="#">
+                                        <p>مادة  2</p>
+                                    </a>
+                                </div>
+                                <div class="mada">
+                                <a href="#">
+                                        <p>مادة  2</p>
+                                    </a>
+                                </div>
+                                <div class="mada">
+                                <a href="#">
+                                        <p>مادة  2</p>
+                                    </a>
+                                </div>
+                                <div class="mada">
+                                <a href="#">
+                                        <p>مادة  2</p>
+                                    </a>
+                                </div>
+                                <div class="mada">
+                                <a href="#">
+                                        <p>مادة  2</p>
+                                    </a>
+                                </div>
+                                <div class="mada">
+                                <a href="#">
+                                        <p>مادة  2</p>
+                                    </a>
+                                </div>
+                                <div class="mada">
+                                <a href="#">
+                                        <p>مادة  2</p>
+                                    </a>
+                                </div>
+                                <div class="mada">
+                                <a href="#">
+                                        <p>مادة  2</p>
+                                    </a>
+                                </div>
+                                <div class="mada">
+                                <a href="#">
+                                        <p>مادة  2</p>
+                                    </a>
+                                </div>
+                                <div class="mada">
+                                <a href="#">
+                                        <p>مادة  2</p>
+                                    </a>
+                                </div>
+                                <div class="mada">
+                                <a href="#">
+                                        <p>مادة  2</p>
+                                    </a>
+                                </div>
+                                <div class="mada">
+                                <a href="#">
+                                        <p>مادة  2</p>
+                                    </a>
+                                </div>
+                                <div class="mada">
+                                <a href="#">
+                                        <p>مادة  2</p>
+                                    </a>
+                                </div>
+                                <div class="mada">
+                                <a href="#">
+                                        <p>مادة  2</p>
+                                    </a>
+                                </div>
+                                <div class="mada">
+                                <a href="#">
+                                        <p>مادة  2</p>
+                                    </a>
+                                </div>
+                                <div class="mada">
+                                <a href="#">
+                                        <p>مادة  2</p>
+                                    </a>
+                                </div>
+                                <div class="mada">
+                                <a href="#">
+                                        <p>مادة  2</p>
+                                    </a>
+                                </div>
+                                <div class="mada">
+                                <a href="#">
+                                        <p>مادة  2</p>
+                                    </a>
+                                </div>
+                                <div class="mada">
+                                <a href="#">
+                                        <p>مادة  2</p>
+                                    </a>
+                                </div>
+                                <div class="mada">
+                                <a href="#">
+                                        <p>مادة  2</p>
+                                    </a>
+                                </div>
+                                <div class="mada">
+                                <a href="#">
+                                        <p>مادة  2</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="aard-col-2">
+                    <div class="box">
+                        <div class="heading">
+                            <div class="search">
+                                <input type="search" placeholder="ابحث في النص">
+                                <a href="#" class="btn-search">
+                                   <span><i class="fa-solid fa-magnifying-glass"></i></span>
+                                </a>
+                            </div>
+                            <a href="#" class="zoom-in" onclick="changeFontSize(5); return false;">
+                                <i class="fa-solid fa-magnifying-glass-plus"></i><p> تكبير</p>
+                            </a>
+                            <a href="#" class="zoom-out" onclick="changeFontSize(-5); return false;">
+                            <i class="fa-solid fa-magnifying-glass-minus"></i><p>تصغير</p>
+                            </a>
+                            <a href="#" class="print" onclick="print()">
+                            <i class="fa-solid fa-print" ></i>  <p>طباعة</p>
+                            </a>
+                        </div>
+                        <div class="box-tash-content">
+                            <div class="tash-title">
+                                <p>القانون رقم 131 لسنة 1948
+                                الوقائع المصرية - العدد 108 (مكرر) - في 29 يوليو سنة 1948
+                                بشأن إصدار القانون المدني.</p>
+                            </div>
+                            <div class="flex">
+                                <div class="mada-num">
+                                    <p>مادة 1</p>
+                                </div>
+                            </div>
+                            <div class="ta3dil">
+                                <a href="#">معدلة ب قانون رقم 10 لسنة 2022</a>
+                            </div>
+                            <div class="mada-text">
+                                <p>1- تسري النصوص التشريعية على جميع المسائل التي تتناولها هذه النصوص في لفظها أو في فحواها.
+                                2- فإذا لم يوجد نص تشريعي يمكن تطبيقه، حكم القاضي بمقتضى العرف، فإذا لم يوجد، فبمقتضى مبادئ الشريعة الإسلامية، فإذا لم
+                                توجد، فبمقتضى مبادئ القانون الطبيعي وقواعد العدالة.</p>
+                                <p>1- تسري النصوص التشريعية على جميع المسائل التي تتناولها هذه النصوص في لفظها أو في فحواها.
+                                2- فإذا لم يوجد نص تشريعي يمكن تطبيقه، حكم القاضي بمقتضى العرف، فإذا لم يوجد، فبمقتضى مبادئ الشريعة الإسلامية، فإذا لم
+                                توجد، فبمقتضى مبادئ القانون الطبيعي وقواعد العدالة.</p>
+                                <p>1- تسري النصوص التشريعية على جميع المسائل التي تتناولها هذه النصوص في لفظها أو في فحواها.
+                                2- فإذا لم يوجد نص تشريعي يمكن تطبيقه، حكم القاضي بمقتضى العرف، فإذا لم يوجد، فبمقتضى مبادئ الشريعة الإسلامية، فإذا لم
+                                توجد، فبمقتضى مبادئ القانون الطبيعي وقواعد العدالة.</p>
+                                <p>1- تسري النصوص التشريعية على جميع المسائل التي تتناولها هذه النصوص في لفظها أو في فحواها.
+                                2- فإذا لم يوجد نص تشريعي يمكن تطبيقه، حكم القاضي بمقتضى العرف، فإذا لم يوجد، فبمقتضى مبادئ الشريعة الإسلامية، فإذا لم
+                                توجد، فبمقتضى مبادئ القانون الطبيعي وقواعد العدالة.</p>
+                                <p>1- تسري النصوص التشريعية على جميع المسائل التي تتناولها هذه النصوص في لفظها أو في فحواها.
+                                2- فإذا لم يوجد نص تشريعي يمكن تطبيقه، حكم القاضي بمقتضى العرف، فإذا لم يوجد، فبمقتضى مبادئ الشريعة الإسلامية، فإذا لم
+                                توجد، فبمقتضى مبادئ القانون الطبيعي وقواعد العدالة.</p>
+                                <p>1- تسري النصوص التشريعية على جميع المسائل التي تتناولها هذه النصوص في لفظها أو في فحواها.
+                                2- فإذا لم يوجد نص تشريعي يمكن تطبيقه، حكم القاضي بمقتضى العرف، فإذا لم يوجد، فبمقتضى مبادئ الشريعة الإسلامية، فإذا لم
+                                توجد، فبمقتضى مبادئ القانون الطبيعي وقواعد العدالة.</p>
+                                <p>1- تسري النصوص التشريعية على جميع المسائل التي تتناولها هذه النصوص في لفظها أو في فحواها.
+                                2- فإذا لم يوجد نص تشريعي يمكن تطبيقه، حكم القاضي بمقتضى العرف، فإذا لم يوجد، فبمقتضى مبادئ الشريعة الإسلامية، فإذا لم
+                                توجد، فبمقتضى مبادئ القانون الطبيعي وقواعد العدالة.</p>
+                                <p>1- تسري النصوص التشريعية على جميع المسائل التي تتناولها هذه النصوص في لفظها أو في فحواها.
+                                2- فإذا لم يوجد نص تشريعي يمكن تطبيقه، حكم القاضي بمقتضى العرف، فإذا لم يوجد، فبمقتضى مبادئ الشريعة الإسلامية، فإذا لم
+                                توجد، فبمقتضى مبادئ القانون الطبيعي وقواعد العدالة.</p>
+                                <p>1- تسري النصوص التشريعية على جميع المسائل التي تتناولها هذه النصوص في لفظها أو في فحواها.
+                                2- فإذا لم يوجد نص تشريعي يمكن تطبيقه، حكم القاضي بمقتضى العرف، فإذا لم يوجد، فبمقتضى مبادئ الشريعة الإسلامية، فإذا لم
+                                توجد، فبمقتضى مبادئ القانون الطبيعي وقواعد العدالة.</p>
+                                <p>1- تسري النصوص التشريعية على جميع المسائل التي تتناولها هذه النصوص في لفظها أو في فحواها.
+                                2- فإذا لم يوجد نص تشريعي يمكن تطبيقه، حكم القاضي بمقتضى العرف، فإذا لم يوجد، فبمقتضى مبادئ الشريعة الإسلامية، فإذا لم
+                                توجد، فبمقتضى مبادئ القانون الطبيعي وقواعد العدالة.</p>
+                            </div>
+                            <div class="linked">
+                                <fieldset>
+                                    <legend>الشرح الفقهي</legend>
+                                    <div class="text">
+                                        <div class="mada-num">
+                                            <p>أولاً : أن يكون المتهم إنسانا حيا</p>
+                                        </div>
+                                        <p>ما كان الثابت من دفاع الحاضر عن المدعي عليه الرابع بصفته بمحضر اعمال الخبير الاخير المودع ملف الدعوي المنضمة انه تملك
+                                        الاطيان بوضع اليد المدة الطويلة المكسبة للملكية ، ولما كان وضع اليد المدة الطويلة اذا توافرت فيه الشروط القانونية يعد
+                                        بذاته سببا لكسب الملكية مستقلا عن غيره من اسباب اكتسابها . * نقض مدني الطعن رقم 549 لسنة 52 ق جلسة 28/ 11/ 1985 المجموعه
+                                        السنه 26 صـ 1067 *
+                                        لما كان ذلك وكان الثابت من اقوال الشهود اللذين تم سماعهم بتقرير الخبير ومن مطالعة عقد الايجار المؤرخ / / والمسجل
+                                        بالجمعية الزراعية تحت رقم في / / ومن اقوال المهندس الزراعي مدير الجمعية ان مطرانية ...... للاقباط والتي يمثلها المدعي
+                                        عليه الرابع بصفته كان يضع اليد علي مساحة 7 ط من الاطيان موضوع النزاع وكان يقوم بتأجيرها الي الغير منذ تاريخ تحرير عقد
+                                        الايجار سالف الذكر وحتي تصرف فيها بالبيع الي المدعي عليهما الثاني والثالث ، وقد خلت الاوراق من ثمة دليل علي منازعة
+                                        المدعين او مورثيهما من قبل للمطرانية بخصوص المساحة سالفة الذكر خلال مدة وضع يدها وحتي تصرفها فيها بالبيع وهي تزيد علي
+                                        عشرين عاما ، وعليه تكون الشروط القانونية من ظهور وهدوء واستمرار وبنية الملك مدة تزيد علي عشرين عاما قد توافرت لدي
+                                        المطرانية في كسب ملكية المساحة سالفة الذكر بوضع اليد المدة الطويلة المكسبة للملكية .
+                                        لما كان ذلك وكان الخبير المنتدب في تقريره الاول والذي تطمئن اليه المحكمة وتأخذ بما انتهي اليه من ان وضع يد المدعي عليهم
+                                        الثلاثه الاول في حدود مشتراهم من مطرانية الاقباط الارثوذكس بـ .... ولم يثبت اي غصب منهم بخصوص ارض النزاع ، ومن ثم تضحي
+                                        الدعوي غير قائمة علي اساس من الواقع والقانون جديرة بالرفض وهو ما تقضي به المحكمة ووفق ما سيرد بالمنطوق
+                                        وحيث انه عن المصاريف فالمحكمة تلزم المدعين بها علي سند من المادتين 184/1 مرافعات ، 187/1 من قانون المحاماة المستبدلة
+                                        بالقانون 10 لسنة 2002 .
+                                        فلهذه الاسباب
+                                        حكمت المحكمة برفض الدعوي والزمت المدعين بالمصاريف ومبلغ خمسة وسبعون جنيها مقابلا لاتعاب المحاماة .</p>
+                                    </div>
+                                </fieldset>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="aard-col-3 show">
+                    <div class="box">
+                        <div class="box-title">
+                            <p>الارتباطات</p>
+                        </div>
+                        <ul class="tabs">
+                            <li class="active" data-select = ".shar7">الشرح الفقهي</li>
+                            <li data-select=".a7kams">أحكام النقض</li>
+                        </ul>
+                        <div class="content-sec">
+                            <div class="shar7">
+                                <div class="shar7-title">
+                                    <h3>بند الشرح</h3>
+                                </div>
+                                <div class="box active">
+                                    <a href="#">
+                                        <span>أولاً : أن يكون المتهم إنسانا حيا</span>
+                                    </a>
+                                </div>
+                                <div class="box">
+                                    <a href="#">
+                                        <span>أولاً : أن يكون المتهم إنسانا حيا</span>
+                                    </a>
+                                </div>
+                                <div class="box">
+                                    <a href="#">
+                                        <span>أولاً : أن يكون المتهم إنسانا حيا</span>
+                                    </a>
+                                </div>
+                                <div class="box">
+                                    <a href="#">
+                                        <span>أولاً : أن يكون المتهم إنسانا حيا</span>
+                                    </a>
+                                </div>
+                                <div class="box">
+                                    <a href="#">
+                                        <span>أولاً : أن يكون المتهم إنسانا حيا</span>
+                                    </a>
+                                </div>
+                                <div class="box">
+                                    <a href="#">
+                                        <span>أولاً : أن يكون المتهم إنسانا حيا</span>
+                                    </a>
+                                </div>
+                                <div class="box">
+                                    <a href="#">
+                                        <span>أولاً : أن يكون المتهم إنسانا حيا</span>
+                                    </a>
+                                </div>
+                                <div class="box">
+                                    <a href="#">
+                                        <span>أولاً : أن يكون المتهم إنسانا حيا</span>
+                                    </a>
+                                </div>
+                                <div class="box">
+                                    <a href="#">
+                                        <span>أولاً : أن يكون المتهم إنسانا حيا</span>
+                                    </a>
+                                </div>
+                                <div class="box">
+                                    <a href="#">
+                                        <span>أولاً : أن يكون المتهم إنسانا حيا</span>
+                                    </a>
+                                </div>
+                                <div class="box">
+                                    <a href="#">
+                                        <span>أولاً : أن يكون المتهم إنسانا حيا</span>
+                                    </a>
+                                </div>
+                                <div class="box">
+                                    <a href="#">
+                                        <span>أولاً : أن يكون المتهم إنسانا حيا</span>
+                                    </a>
+                                </div>
+                                <div class="box">
+                                    <a href="#">
+                                        <span>أولاً : أن يكون المتهم إنسانا حيا</span>
+                                    </a>
+                                </div>
+                                <div class="box">
+                                    <a href="#">
+                                        <span>أولاً : أن يكون المتهم إنسانا حيا</span>
+                                    </a>
+                                </div>
+                                <div class="box">
+                                    <a href="#">
+                                        <span>أولاً : أن يكون المتهم إنسانا حيا</span>
+                                    </a>
+                                </div>
+                                <div class="box">
+                                    <a href="#">
+                                        <span>أولاً : أن يكون المتهم إنسانا حيا</span>
+                                    </a>
+                                </div>
+                                <div class="box">
+                                    <a href="#">
+                                        <span>أولاً - النيابة العامة "تعريف النيابة"</span>
+                                    </a>
+                                </div>
+                                <div class="box">
+                                    <a href="#">
+                                        <span>أولاً - النيابة العامة "تعريف النيابة"</span>
+                                    </a>
+                                </div>
+                                <div class="box">
+                                    <a href="#">
+                                        <span>أولاً - النيابة العامة "تعريف النيابة"</span>
+                                    </a>
+                                </div>
+                                <div class="box">
+                                    <a href="#">
+                                        <span>أولاً - النيابة العامة "تعريف النيابة"</span>
+                                    </a>
+                                </div>
+                                <div class="box">
+                                    <a href="#">
+                                        <span>أولاً - النيابة العامة "تعريف النيابة"</span>
+                                    </a>
+                                </div>
+                                <div class="box">
+                                    <a href="#">
+                                        <span>أولاً - النيابة العامة "تعريف النيابة"</span>
+                                    </a>
+                                </div>
+                                <div class="box">
+                                    <a href="#">
+                                        <span>أولاً - النيابة العامة "تعريف النيابة"</span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="a7kams">
+                                <table>
+                                    <thead>
+                                        <tr>
+                                            <th>تاريخ الجلسة</th>
+                                            <th>ق</th>
+                                            <th>رقم الطعن</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr class="active">
+                                     <a href="#">
+                                            <td>01/01/2023</td>
+                                            <td>40</td>
+                                            <td>1</td>
+                                        </a>
+                                    </tr>
+                                        <tr>
+                                            <a href="#">
+                                                <td>02/01/2023</td>
+                                                <td>32</td>
+                                                <td>2</td>
+                                            </a>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="./tash3ard.js">
+    </script>
+</body>
+</html>

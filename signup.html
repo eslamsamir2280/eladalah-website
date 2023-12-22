@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./style.css">
+    <!-- link icons -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <!-- link icons -->
+    <title>تسجيل</title>
+</head>
+
+<body>
+    <div class="popUp popUp-show">
+<form class="otp-Form">
+
+    <span class="mainHeading">أدخل الكود</span>
+    <p class="otpSubheading">لقد أرسلنا كود التأكيد الي رقم التليفون 01000184623</p>
+    <div class="inputContainer">
+        <input required="required" maxlength="1" type="text" class="otp-input" id="otp-input1">
+        <input required="required" disabled maxlength="1" type="text" class="otp-input" id="otp-input2">
+        <input required="required" disabled maxlength="1" type="text" class="otp-input" id="otp-input3">
+        <input required="required" disabled maxlength="1" type="text" class="otp-input" id="otp-input4">
+
+    </div>
+    <button class="verifyButton" type="submit">تأكيد</button>
+    <button class="exitBtn">×</button>
+    <p class="resendNote">لم يصلك الكود ؟<button class="resendBtn">إعادة الإرسال</button></p>
+
+</form>
+    </div>
+    <section class="signUP">
+        <div class="container">
+            <div class="box">
+                <div class="right">
+                    <img src="./images/logo.webp" alt="">
+                    <h3>قم بتسجيل بياناتك</h3>
+                    <form>
+                        <div class="group val-test val-error">
+                            <input required="" type="text" class="input">
+                            <span class="highlight"></span>
+                            <span class="bar"></span>
+                            <span class="error">  <span class="fa-solid fa-circle-exclamation"></span>يجب ملئ هذا الحقل</span>
+                            <label> <i class="fa-solid fa-user"></i>الاسم بالكامل </label>
+                        </div>
+                        <div class="group val-test">
+                            <input required="" type="text" class="input">
+                            <span class="highlight"></span>
+                            <span class="bar"></span>
+                                                        <span class="error"> <span class="fa-solid fa-circle-exclamation"></span>يجب ملئ هذا الحقل</span>
+
+                            <label> <i class="fa-solid fa-phone"></i>رقم التليفون</label>
+                        </div>
+                        <div class="select val-test">
+                            <select class="select-text" required>
+                                <option value="" disabled selected></option>
+                                <option value="1">مصر</option>
+                            </select>
+                            <span class="select-highlight"></span>
+                            <span class="select-bar"></span>
+                            <label class="select-label"><i class="fa-solid fa-earth-africa"></i> الدولة </label>
+                                                        <span class="error"> <span class="fa-solid fa-circle-exclamation"></span>يجب ملئ هذا الحقل</span>
+
+                        </div>
+                        <div class="select val-test">
+                            <select class="select-text" required>
+                                <option value="" disabled selected></option>
+                                                                                            <option value="1">القاهرة</option>
+                                                                                            <option value="2">الإسكندرية</option>
+                                                                                            <option value="3">أسوان</option>
+                                                                                            <option value="4">أسيوط</option>
+                                                                                            <option value="5">البحيرة</option>
+                                                                                            <option value="6">بني سويف</option>
+                                                                                            <option value="7">الدقهلية</option>
+                                                                                            <option value="8">دمياط</option>
+                                                                                            <option value="9">الفيوم</option>
+                                                                                            <option value="10">الغربية</option>
+                                                                                            <option value="11">الجيزة</option>
+                                                                                            <option value="12">الإسماعيلية</option>
+                                                                                            <option value="13">كفر الشيخ</option>
+                                                                                            <option value="14">مطروح</option>
+                                                                                            <option value="15">المنيا</option>
+                                                                                            <option value="16">المنوفية</option>
+                                                                                            <option value="17">الوادي الجديد</option>
+                                                                                            <option value="18">شمال سيناء</option>
+                                                                                            <option value="19">بورسعيد</option>
+                                                                                            <option value="20">القليوبية</option>
+                                                                                            <option value="21">قنا</option>
+                                                                                            <option value="22">البحر الأحمر</option>
+                                                                                            <option value="23">الشرقية</option>
+                                                                                            <option value="24">سوهاج</option>
+                                                                                            <option value="25">جنوب سيناء</option>
+                                                                                            <option value="26">السويس</option>
+                                                                                            <option value="27">الأقصر</option>
+
+                            </select>
+                            <span class="select-highlight"></span>
+                            <span class="select-bar"></span>
+                            <label class="select-label"><i class="fa-solid fa-city"></i> المدينة</label>
+                                                        <span class="error"> <span class="fa-solid fa-circle-exclamation"></span>يجب ملئ هذا الحقل</span>
+
+                        </div>
+                        <div class="select val-test">
+                            <select id="job" class="select-text" required>
+                                <option value="" disabled selected></option>
+                                    <option value="محامي حر">محامي حر</option>
+                                    <option value="محامي ادارات">محامي ادارات</option>
+                                    <option value="محامي شركات">محامي شركات</option>
+                                    <option value="إستاذ جامعة">
+                                        إستاذ جامعة
+                                    </option>
+                                    <option value="القضاء  والنيابة العامة">القضاء والنيابة العامة</option>
+                                    <option value="مجلس الدولة">مجلس الدولة</option>
+                                    <option value="النيابة الإدارية">
+                                        النيابة الإدارية
+                                    </option>
+                                    <option value="هيئة قضايا الدولة">
+                                        هيئة قضايا الدولة
+                                    </option>
+
+                            </select>
+                            <span class="select-highlight"></span>
+                            <span class="select-bar"></span>
+                            <label class="select-label"><i class="fa-solid fa-briefcase"></i> الهيئة </label>
+                                                        <span class="error"> <span class="fa-solid fa-circle-exclamation"></span>يجب ملئ هذا الحقل</span>
+
+                        </div>
+                        <div class="control val-test">
+                            <div class="check">
+                                <input type="checkbox">
+                                <p>لقد قرأت ووافقت علي <a href="#">شروط وأحكام </a> الموقع</p>
+                            </div>
+                                                        <span class="error"> <span class="fa-solid fa-circle-exclamation"></span>يجب ملئ هذا الحقل</span>
+
+                        </div>
+                        <button type="submit">إرسال</button>
+                    </form>
+                </div>
+                <div class="left">
+                <img src="./images/pexels-photo-5669602.webp" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+    <script src="./signup.js">
+
+    </script>
+</body>
+
+</html>

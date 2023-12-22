@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./default.css">
+    <link rel="stylesheet" href="./default.date.css">
+    <link rel="stylesheet" href="./rtl.css">
+
+    <!-- link css style -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- link css style -->
+    <!-- link icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <!-- link icons -->
+    <!-- aos -->
+    <link rel="stylesheet" href="./aos.css">
+    <!-- aos -->
+    <title> بحث الأحكام</title>
+</head>
+
+<body>
+    <!-- start header -->
+    <div class="bigNav">
+        <!-- start small nav -->
+        <section class="sm-nav">
+            <div class="container">
+                <div class="right">
+                    <a href="#"><img src="./images/googleplay.svg" alt=""></a>
+                    <a href="#"><img src="./images/appstore.svg" alt=""></a>
+                </div>
+                <div class="left">
+                    <a href="./login.html" class="flex"> <i class="fa-solid fa-arrow-right-to-bracket"></i> تسجيل
+                        الدخول</a>
+                    <!-- <a href="./login.html" class="flex"><i class="fa-solid fa-user"></i>حسابي</a> -->
+                    <a href="#" class="flex"> <i class="fa-solid fa-headset"></i> الدعم والمساعدة</a>
+                </div>
+            </div>
+        </section>
+        <!-- end small nav -->
+        <!-- start main nav -->
+        <section class="navBar">
+            <div class="container">
+                <div class="logo">
+                    <img src="./images/logo.webp" alt="">
+                </div>
+                <nav>
+                    <ul class="navLinks">
+                        <li><a href="./index.html">
+                                <img src="./images/home (1).png" alt="">
+                                الرئيسية</a></li>
+                        <li><a href="./groupmanzoma.html">
+                                <img src="./images/compliant.png" alt="">
+                                منظومات الشرح </a></li>
+                        <li><a href="#">
+                                <img src="./images/auction.png" alt="">
+                                منظومة الأحكام </a>
+                        </li>
+                        <li><a href="#">
+                                <img src="./images/protected.png" alt="">
+                                منظومة التشريعات </a>
+                        </li>
+                        <li><a href="#">
+                                <img src="./images/law (2).png" alt="">
+                                منظومة الهيئات</a></li>
+                        <li><a href="https://sales.eladalah.com/Home/index.php">
+                                <img src="./images/book.png" alt="">
+                                الإصدارات الورقية</a></li>
+                    </ul>
+                    <i class="fa-solid fa-bars" id="open"></i>
+                    <ul class="side-nav" id="sidenav">
+                        <li>
+                            <i class="fa-solid fa-house"></i>
+                            <a href="./index.html">الرئيسية</a>
+                        </li>
+                        <li><i class="fa-solid fa-scale-balanced"></i><a href="./groupmanzoma.html">منظومة الشرح </a>
+                        </li>
+                        <li><i class="fa-solid fa-scale-balanced"></i><a href="#">منظومة الأحكام</a></li>
+                        <li><i class="fa-solid fa-scale-balanced"></i><a href="#">منظومة التشريعات</a></li>
+                        <li><i class="fa-solid fa-scale-balanced"></i><a href="#">منظومة الهيئات</a></li>
+                        <li><i class="fa-solid fa-book"></i><a href="https://sales.eladalah.com/Home/index.php">
+                                الإصدارات
+                                الورقية</a></li>
+                        <li><i class="fa-brands fa-youtube"></i></i><a href="#">مكتبة الفيديوهات</a></li>
+                        <li class="login"><i class="fa-solid fa-arrow-right-to-bracket"></i><a href="./login.html">تسجيل
+                                الدخول</a></li>
+                        <li><i class="fa-solid fa-headset"></i><a href="#">الدعم والمساعدة</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </section>
+    </div>
+    <!-- end main nav -->
+    <!-- end header -->
+    <div class="search-sec">
+        <div class="container">
+            <div class="search-box">
+                <div class="box">
+                    <div class="flex">
+                        <div class="title">
+                            <div class="main-title">
+                                <h4>بحث في التشريعات</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="search-row">
+                        <div class="form-search">
+                            <div class="tash-num">
+                                <label for="">رقم الطعن</label>
+                                <input type="text">
+                                <label for="" class="label2"> إلي</label>
+                                <input type="text">
+                            </div>
+                            <div class="tash-year">
+                                <label for="">السنة القضائية</label>
+                                <input type="text">
+                                <label for="" class="label2"> إلي</label>
+                                <input type="text">
+                            </div>
+                            <div class="tash-data">
+                                <label for="">تاريخ الجلسة</label>
+                                <input type="date" lang="ar" class="">
+                                <label for="" class="label2"> إلي</label>
+                                <input type="date" lang="ar" class="">
+                            </div>
+                            <div class="mawad">
+                                <label for="">نصوص الأحكام</label>
+                                <div class="input-flex">
+                                    <select name="" id="">
+                                        <option value="0">بحث مطابق</option>
+                                        <option value="0">بحث مشابة</option>
+                                    </select>
+                                    <input type="text">
+                                </div>
+                            </div>
+                            <div class="btns">
+                                <button><i class="fa-brands fa-searchengin"></i> بحث </button>
+                                <button><i class="fa-solid fa-eraser"></i> مسح عوامل البحث </button>
+                            </div>
+                        </div>
+                        <div class="checks">
+                            <div class="heading">
+                                <p>اختر عنوان التشريع</p>
+                            </div>
+                            <div class="actions">
+                                <div class="actions-btn">
+                                    <a href="#">تحديد الكل</a>
+                                    <div class="line"></div>
+                                    <a href="#">إلغاء تحديد الكل</a>
+                                </div>
+                                <div class="search">
+                                    <input type="search" placeholder="قم بالتصفية">
+                                </div>
+                            </div>
+                            <div class="checkboxs">
+                                <div class="item">
+                                    <input type="checkbox" name="" id="">
+                                    <label for="checkbox"> قرار المجلس الأعلى للشباب والرياضة</label>
+                                </div>
+                                <div class="item">
+                                    <input type="checkbox" name="" id="">
+                                    <label for="checkbox">قرار المجلس الأعلى للشباب والرياضة</label>
+                                </div>
+                                <div class="item">
+                                    <input type="checkbox" name="" id="">
+                                    <label for="checkbox"> قرار وزير العدل</label>
+                                </div>
+                                <div class="item">
+                                    <input type="checkbox" name="" id="">
+                                    <label for="checkbox"> قرار محافظ القاهرة مصر</label>
+                                </div>
+                                <div class="item">
+                                    <input type="checkbox" name="" id="">
+                                    <label for="checkbox"> قانون</label>
+                                </div>
+                                <div class="item">
+                                    <input type="checkbox" name="" id="">
+                                    <label for="checkbox"> قانون</label>
+                                </div>
+                                <div class="item">
+                                    <input type="checkbox" name="" id="">
+                                    <label for="checkbox"> قانون</label>
+                                </div>
+                                <div class="item">
+                                    <input type="checkbox" name="" id="">
+                                    <label for="checkbox"> قانون</label>
+                                </div>
+                                <div class="item">
+                                    <input type="checkbox" name="" id="">
+                                    <label for="checkbox"> قانون</label>
+                                </div>
+                                <div class="item">
+                                    <input type="checkbox" name="" id="">
+                                    <label for="checkbox"> قانون</label>
+                                </div>
+                                <div class="item">
+                                    <input type="checkbox" name="" id="">
+                                    <label for="checkbox"> قانون</label>
+                                </div>
+                                <div class="item">
+                                    <input type="checkbox" name="" id="">
+                                    <label for="checkbox"> قانون</label>
+                                </div>
+                                <div class="item">
+                                    <input type="checkbox" name="" id="">
+                                    <label for="checkbox"> قانون</label>
+                                </div>
+                                <div class="item">
+                                    <input type="checkbox" name="" id="">
+                                    <label for="checkbox"> قانون</label>
+                                </div>
+                                <div class="item">
+                                    <input type="checkbox" name="" id="">
+                                    <label for="checkbox"> قانون</label>
+                                </div>
+                                <div class="item">
+                                    <input type="checkbox" name="" id="">
+                                    <label for="checkbox"> قانون</label>
+                                </div>
+                                <div class="item">
+                                    <input type="checkbox" name="" id="">
+                                    <label for="checkbox"> قانون</label>
+                                </div>
+                                <div class="item">
+                                    <input type="checkbox" name="" id="">
+                                    <label for="checkbox"> قانون</label>
+                                </div>
+                                <div class="item">
+                                    <input type="checkbox" name="" id="">
+                                    <label for="checkbox"> قانون</label>
+                                </div>
+                                <div class="item">
+                                    <input type="checkbox" name="" id="">
+                                    <label for="checkbox"> قانون</label>
+                                </div>
+                                <div class="item">
+                                    <input type="checkbox" name="" id="">
+                                    <label for="checkbox"> قانون</label>
+                                </div>
+                                <div class="item">
+                                    <input type="checkbox" name="" id="">
+                                    <label for="checkbox"> قانون</label>
+                                </div>
+                                <div class="item">
+                                    <input type="checkbox" name="" id="">
+                                    <label for="checkbox"> قانون</label>
+                                </div>
+                                <div class="item">
+                                    <input type="checkbox" name="" id="">
+                                    <label for="checkbox"> قانون</label>
+                                </div>
+                                <div class="item">
+                                    <input type="checkbox" name="" id="">
+                                    <label for="checkbox"> قانون</label>
+                                </div>
+                                <div class="item">
+                                    <input type="checkbox" name="" id="">
+                                    <label for="checkbox"> قانون</label>
+                                </div>
+                                <div class="item">
+                                    <input type="checkbox" name="" id="">
+                                    <label for="checkbox"> قانون</label>
+                                </div>
+                                <div class="item">
+                                    <input type="checkbox" name="" id="">
+                                    <label for="checkbox"> lpht/</label>
+                                </div>
+                                <div class="item">
+                                    <input type="checkbox" name="" id="">
+                                    <label for="checkbox"> lpht/</label>
+                                </div>
+                                <div class="item">
+                                    <input type="checkbox" name="" id="">
+                                    <label for="checkbox"> lpht/</label>
+                                </div>
+                                <div class="item">
+                                    <input type="checkbox" name="" id="">
+                                    <label for="checkbox"> lpht/</label>
+                                </div>
+                                <div class="item">
+                                    <input type="checkbox" name="" id="">
+                                    <label for="checkbox"> lpht/</label>
+                                </div>
+                                <div class="item">
+                                    <input type="checkbox" name="" id="">
+                                    <label for="checkbox"> lpht/</label>
+                                </div>
+                                <div class="item">
+                                    <input type="checkbox" name="" id="">
+                                    <label for="checkbox"> lpht/</label>
+                                </div>
+                                <div class="item">
+                                    <input type="checkbox" name="" id="">
+                                    <label for="checkbox">وزارة</label>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="result show">
+        <div class="container">
+            <div class="flex">
+                <div class="title">
+                    <div class="main-title">
+                        <h4> نتائج البحث </h4>
+                    </div>
+                </div>
+            </div>
+            <section class="tash-page result-content">
+                <div class="container">
+                    <div class="search-flex">
+                    </div>
+                    <div class="agmaly">
+                        <p> <i class="fa-solid fa-chart-line"></i> إجمالي عدد النتائج هو (120 ) عنصر</p>
+                        <!-- <select name="" id="">
+                            <option value="">ترتيب عناصر البحث</option>
+                            <option value="0">ترتيب برقم التشريع</option>
+                            <option value="1">ترتيب بتاريخ التشريع</option>
+                            <option value="2">ترتيب بسنة التشريع</option>
+                        </select> -->
+                    </div>
+                    <div class="row">
+                        <div class="col-1">
+                            <div class="box">
+                                <div class="sort">
+                                    <div class="box-title">
+                                        <h4>ترتيب</h4>
+                                    </div>
+                                    <div class="box-content">
+                                        <div class="chek-option">
+                                            <input type="radio" name="kind" id="numSort" checked>
+                                            <label for="numSort">ترتيب برقم التشريع</label>
+                                        </div>
+                                        <div class="chek-option">
+                                            <input type="radio" name="kind" id="dateSort">
+                                            <label for="dateSort">ترتيب بتاريخ التشريع</label>
+                                        </div>
+                                        <div class="chek-option">
+                                            <input type="radio" name="kind" id="yearSort">
+                                            <label for="yearSort">ترتيب بسنة التشريع</label>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="kind">
+                                    <div class="box-title">
+                                        <h4>نوع التشريع</h4>
+                                    </div>
+                                    <div class="search">
+                                        <input placeholder="بحث بنوع التشريع" type="search" id="kindSearch">
+                                    </div>
+                                    <div class="box-content">
+                                        <div class="checkbox">
+                                            <input type="checkbox">
+                                            <label for=""> النقض المدني <span> ( 5 ) </span></label>
+                                        </div>
+                                        <div class="checkbox">
+                                            <input type="checkbox">
+                                            <label for=""> النقض الجنائي <span> ( 5 ) </span></label>
+                                        </div>
+                                        <div class="checkbox">
+                                            <input type="checkbox">
+                                            <label for=""> الدستورية العليا <span> ( 5 ) </span></label>
+                                        </div>
+                                        <div class="checkbox">
+                                            <input type="checkbox">
+                                            <label for=""> الإدارية العليا <span> ( 5 ) </span></label>
+                                        </div>
+                                        <div class="checkbox">
+                                            <input type="checkbox">
+                                            <label for=""> فتاوي مجلس الدولة <span> ( 5 ) </span></label>
+                                        </div>
+                                        <div class="checkbox">
+                                            <input type="checkbox">
+                                            <label for=""> القضاء الإداري <span> ( 5 ) </span></label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-2">
+                            <div class="tash-boxs">
+                                <div class="box-a7kam">
+                                    <div class="box-flex">
+                                        <div class="num-box">
+                                            <p>1</p>
+                                        </div>
+                                        <div class="box">
+                                            <a href="#">
+                                                <h3>الطعن رقم 10570 لسنة 89 ق - جلسة 1 / 1 / 2022</h3>
+                                            </a>
+                                            <p class="a7kam-desc">محكمة النقض
+                                                الدائرة المدنية
+                                                دائرة السبت (ب) المدنية
+                                                محضر جلسة
+                                                في الجلسة المنعقدة بمقر المحكمة بدار القضاء العالي بمدينة القاهرة.
+                                                في يوم السبت 27 من جمادى الأول1443 ه الموافق 1 من يناير سنة 2022.
+                                                أصدرت القرار الآتي:</p>
+                                
+                                            <div class="tabs">
+                                                <a href="#"><i class="fa-solid fa-list"></i>
+                                                    <p>عرض الحكم</p>
+                                                </a>
+                                                <a href="#"><i class="fa-regular fa-image"></i>
+                                                    <p>صورة الحكم</p>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="box-a7kam">
+                                    <div class="box-flex">
+                                        <div class="num-box">
+                                            <p>1</p>
+                                        </div>
+                                        <div class="box">
+                                            <a href="#">
+                                                <h3>الطعن رقم 10570 لسنة 89 ق - جلسة 1 / 1 / 2022</h3>
+                                            </a>
+                                            <p class="a7kam-desc">محكمة النقض
+                                                الدائرة المدنية
+                                                دائرة السبت (ب) المدنية
+                                                محضر جلسة
+                                                في الجلسة المنعقدة بمقر المحكمة بدار القضاء العالي بمدينة القاهرة.
+                                                في يوم السبت 27 من جمادى الأول1443 ه الموافق 1 من يناير سنة 2022.
+                                                أصدرت القرار الآتي:</p>
+                                
+                                            <div class="tabs">
+                                                <a href="#"><i class="fa-solid fa-list"></i>
+                                                    <p>عرض الحكم</p>
+                                                </a>
+                                                <a href="#"><i class="fa-regular fa-image"></i>
+                                                    <p>صورة الحكم</p>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="box-a7kam">
+                                    <div class="box-flex">
+                                        <div class="num-box">
+                                            <p>1</p>
+                                        </div>
+                                        <div class="box">
+                                            <a href="#">
+                                                <h3>الطعن رقم 10570 لسنة 89 ق - جلسة 1 / 1 / 2022</h3>
+                                            </a>
+                                            <p class="a7kam-desc">محكمة النقض
+                                                الدائرة المدنية
+                                                دائرة السبت (ب) المدنية
+                                                محضر جلسة
+                                                في الجلسة المنعقدة بمقر المحكمة بدار القضاء العالي بمدينة القاهرة.
+                                                في يوم السبت 27 من جمادى الأول1443 ه الموافق 1 من يناير سنة 2022.
+                                                أصدرت القرار الآتي:</p>
+                                
+                                            <div class="tabs">
+                                                <a href="#"><i class="fa-solid fa-list"></i>
+                                                    <p>عرض الحكم</p>
+                                                </a>
+                                                <a href="#"><i class="fa-regular fa-image"></i>
+                                                    <p>صورة الحكم</p>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="box-a7kam">
+                                    <div class="box-flex">
+                                        <div class="num-box">
+                                            <p>1</p>
+                                        </div>
+                                        <div class="box">
+                                            <a href="#">
+                                                <h3>الطعن رقم 10570 لسنة 89 ق - جلسة 1 / 1 / 2022</h3>
+                                            </a>
+                                            <p class="a7kam-desc">محكمة النقض
+                                                الدائرة المدنية
+                                                دائرة السبت (ب) المدنية
+                                                محضر جلسة
+                                                في الجلسة المنعقدة بمقر المحكمة بدار القضاء العالي بمدينة القاهرة.
+                                                في يوم السبت 27 من جمادى الأول1443 ه الموافق 1 من يناير سنة 2022.
+                                                أصدرت القرار الآتي:</p>
+                                
+                                            <div class="tabs">
+                                                <a href="#"><i class="fa-solid fa-list"></i>
+                                                    <p>عرض الحكم</p>
+                                                </a>
+                                                <a href="#"><i class="fa-regular fa-image"></i>
+                                                    <p>صورة الحكم</p>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="box-a7kam">
+                                    <div class="box-flex">
+                                        <div class="num-box">
+                                            <p>1</p>
+                                        </div>
+                                        <div class="box">
+                                            <a href="#">
+                                                <h3>الطعن رقم 10570 لسنة 89 ق - جلسة 1 / 1 / 2022</h3>
+                                            </a>
+                                            <p class="a7kam-desc">محكمة النقض
+                                                الدائرة المدنية
+                                                دائرة السبت (ب) المدنية
+                                                محضر جلسة
+                                                في الجلسة المنعقدة بمقر المحكمة بدار القضاء العالي بمدينة القاهرة.
+                                                في يوم السبت 27 من جمادى الأول1443 ه الموافق 1 من يناير سنة 2022.
+                                                أصدرت القرار الآتي:</p>
+                                
+                                            <div class="tabs">
+                                                <a href="#"><i class="fa-solid fa-list"></i>
+                                                    <p>عرض الحكم</p>
+                                                </a>
+                                                <a href="#"><i class="fa-regular fa-image"></i>
+                                                    <p>صورة الحكم</p>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="box-a7kam">
+                                    <div class="box-flex">
+                                        <div class="num-box">
+                                            <p>1</p>
+                                        </div>
+                                        <div class="box">
+                                            <a href="#">
+                                                <h3>الطعن رقم 10570 لسنة 89 ق - جلسة 1 / 1 / 2022</h3>
+                                            </a>
+                                            <p class="a7kam-desc">محكمة النقض
+                                                الدائرة المدنية
+                                                دائرة السبت (ب) المدنية
+                                                محضر جلسة
+                                                في الجلسة المنعقدة بمقر المحكمة بدار القضاء العالي بمدينة القاهرة.
+                                                في يوم السبت 27 من جمادى الأول1443 ه الموافق 1 من يناير سنة 2022.
+                                                أصدرت القرار الآتي:</p>
+                                
+                                            <div class="tabs">
+                                                <a href="#"><i class="fa-solid fa-list"></i>
+                                                    <p>عرض الحكم</p>
+                                                </a>
+                                                <a href="#"><i class="fa-regular fa-image"></i>
+                                                    <p>صورة الحكم</p>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="box-a7kam">
+                                    <div class="box-flex">
+                                        <div class="num-box">
+                                            <p>1</p>
+                                        </div>
+                                        <div class="box">
+                                            <a href="#">
+                                                <h3>الطعن رقم 10570 لسنة 89 ق - جلسة 1 / 1 / 2022</h3>
+                                            </a>
+                                            <p class="a7kam-desc">محكمة النقض
+                                                الدائرة المدنية
+                                                دائرة السبت (ب) المدنية
+                                                محضر جلسة
+                                                في الجلسة المنعقدة بمقر المحكمة بدار القضاء العالي بمدينة القاهرة.
+                                                في يوم السبت 27 من جمادى الأول1443 ه الموافق 1 من يناير سنة 2022.
+                                                أصدرت القرار الآتي:</p>
+                                
+                                            <div class="tabs">
+                                                <a href="#"><i class="fa-solid fa-list"></i>
+                                                    <p>عرض الحكم</p>
+                                                </a>
+                                                <a href="#"><i class="fa-regular fa-image"></i>
+                                                    <p>صورة الحكم</p>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="pagination">
+                                <div class="page previous">
+                                    <a href="#"><i class="fa-solid fa-angles-right"></i></a>
+                                </div>
+                                <div class="page active"><a href="#"><span>1</span></a></div>
+                                <div class="page"><a href="#"><span>2</span></a></div>
+                                <div class="page"><a href="#"><span>3</span></a></div>
+                                <div class="page"><a href="#"><span>4</span></a></div>
+                                <div class="page"><a href="#"><span>5</span></a></div>
+                                <div class="page"><a href="#"><span>6</span></a></div>
+                                <div class="page"><a href="#"><span>7</span></a></div>
+                                <div class="page next">
+                                    <a href="#"><i class="fa-solid fa-angles-left"></i></a>
+
+                                </div>
+                            </div>
+                            <p class="agmaly-page">إجمالي عدد الصفحات <span>( 100 )</span></p>
+                        </div>
+                        <div class="col-3">
+                            <div class="year">
+                                <div class="box-title">
+                                    <h4>سنة الإصدار</h4>
+                                </div>
+                                <div class="search">
+                                    <input placeholder="بحث بسنة التشريع" type="search" id="kindSearch">
+                                </div>
+                                <div class="box-content">
+                                    <div class="checkbox">
+                                        <input type="checkbox">
+                                        <label for=""> 2023 <span> ( 5 ) </span></label>
+                                    </div>
+                                    <div class="checkbox">
+                                        <input type="checkbox">
+                                        <label for=""> 2022 <span> ( 5 ) </span></label>
+                                    </div>
+                                    <div class="checkbox">
+                                        <input type="checkbox">
+                                        <label for=""> 2021 <span> ( 5 ) </span></label>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+    <script src="./picker.js"></script>
+    <script src="./picker.date.js"></script>
+    <script src="./ar.js"></script>
+    <script src="./tashsearch.js"></script>
+</body>
+
+</html>
